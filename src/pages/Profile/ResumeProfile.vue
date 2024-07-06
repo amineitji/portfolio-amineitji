@@ -1,56 +1,50 @@
+<!-- eslint-disable vue/no-mutating-props -->
 <template>
-  <div class="card" ref="card">
-    <div class="card-header">
-      <h5 class="title">CV</h5>
-      <p>
-        Vous pouvez me contacter directement sur mon
-        <a href="https://www.linkedin.com/in/amine-itji-5a8696268/">LinkedIn - Amine ITJI</a>
-      </p>
+  <card>
+  <img src="/img/cv_portfolio_fr.png" alt="CV" class="cv-image" @load="adjustCardWidth" ref="cvImage" />
+    <h5 slot="header" class="title">Mon CV</h5>
+    <div class="row">
+      <div class="col-md-5 pr-md-1">
+      </div>
+      <div class="col-md-3 px-md-1">
+      </div>
+      <div class="col-md-4 pl-md-1">
+      </div>
     </div>
-    <div class="card-body">
-      <img src="/img/cv_portfolio_fr.png" alt="CV" class="cv-image" @load="adjustCardWidth" ref="cvImage" />
+    <div class="row">
+      <div class="col-md-6 pr-md-1">
+      </div>
+      <div class="col-md-6 pl-md-1">
+      </div>
     </div>
-  </div>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 pr-md-1">
+      </div>
+      <div class="col-md-4 px-md-1">
+      </div>
+      <div class="col-md-4 pl-md-1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+      </div>
+    </div>
+  </card>
 </template>
-
 <script>
 export default {
-  methods: {
-    adjustCardWidth() {
-      const image = this.$refs.cvImage;
-      const card = this.$refs.card;
-      if (image && card) {
-        const aspectRatio = image.naturalWidth / image.naturalHeight;
-        const newWidth = window.innerHeight * aspectRatio;
-        card.style.width = `${newWidth}px`;
-      }
-    }
+  props: {
+    model: {
+      type: Object,
+      default: () => {
+        return {};
+      },
+    },
   },
-  mounted() {
-    window.addEventListener('resize', this.adjustCardWidth);
-  },
-  beforeDestroy() {
-    window.removeEventListener('resize', this.adjustCardWidth);
-  }
 };
 </script>
-
-<style>
-.card {
-  margin: 0 auto;
-}
-
-.card-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-.cv-image {
-  height: 100vh; /* Full viewport height */
-  width: auto; /* Maintain aspect ratio */
-  display: block;
-}
-</style>
+<style></style>
