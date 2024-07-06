@@ -3,6 +3,7 @@
     :is="tag"
     :type="tag === 'button' ? nativeType : ''"
     :disabled="disabled || loading"
+    v-bind="tag === 'a' ? { href } : {}"
     @click="handleClick"
     class="btn"
     :class="[
@@ -22,6 +23,7 @@
     <slot></slot>
   </component>
 </template>
+
 <script>
 export default {
   name: "base-button",
@@ -59,6 +61,11 @@ export default {
       type: Boolean,
       description: "Whether button is a link (no borders or background)",
     },
+    href: {
+      type: String,
+      default: "",
+      description: "Link URL if button acts as a link",
+    },
   },
   methods: {
     handleClick(evt) {
@@ -67,4 +74,5 @@ export default {
   },
 };
 </script>
+
 <style></style>

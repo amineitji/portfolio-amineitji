@@ -1,68 +1,68 @@
 {
   "dashboard": {
-    "completedTasks": "Completed Tasks",
-    "dailySales": "Daily Sales",
-    "performance": "Performance",
-    "simpleTable": "Simple Table",
-    "totalShipments": "Total Shipments",
-    "chartCategories": ["Accounts", "Purchases", "Sessions"],
-    "tasks": "Tasks({count})",
-    "today": "Today",
+    "completedTasks": "Tâches terminées",
+    "dailySales": "Ventes quotidiennes",
+    "performance": "FEUILLE DE PROJETS",
+    "simpleTable": "Tableau simple",
+    "totalShipments": "Total des expéditions",
+    "chartCategories": ["Personnel", "Universitaire"],
+    "tasks": "Tâches ({count})",
+    "today": "Aujourd'hui",
     "dropdown": {
       "action": "Action",
-      "anotherAction": "Another Action",
-      "somethingElse": "Something else"
+      "anotherAction": "Autre action",
+      "somethingElse": "Autre chose"
     },
     "usersTable": {
-      "title": "Simple Table",
-      "columns": ["Name", "Country", "City", "Salary"],
+      "title": "Tableau simple",
+      "columns": ["Nom", "Pays", "Ville", "Salaire"],
       "data": [
         {
           "id": 1,
           "name": "Dakota Rice",
-          "salary": "$36.738",
+          "salary": "36 738 $",
           "country": "Niger",
           "city": "Oud-Turnhout"
         },
         {
           "id": 2,
           "name": "Minerva Hooper",
-          "salary": "$23,789",
+          "salary": "23 789 $",
           "country": "Curaçao",
           "city": "Sinaai-Waas"
         },
         {
           "id": 3,
           "name": "Sage Rodriguez",
-          "salary": "$56,142",
-          "country": "Netherlands",
+          "salary": "56 142 $",
+          "country": "Pays-Bas",
           "city": "Baileux"
         },
         {
           "id": 4,
           "name": "Philip Chaney",
-          "salary": "$38,735",
-          "country": "Korea, South",
+          "salary": "38 735 $",
+          "country": "Corée du Sud",
           "city": "Overland Park"
         },
         {
           "id": 5,
           "name": "Doris Greene",
-          "salary": "$63,542",
+          "salary": "63 542 $",
           "country": "Malawi",
           "city": "Feldkirchen in Kärnten"
         },
         {
           "id": 6,
           "name": "Mason Porter",
-          "salary": "$98,615",
-          "country": "Chile",
+          "salary": "98 615 $",
+          "country": "Chili",
           "city": "Gloucester"
         },
         {
           "id": 7,
           "name": "Jon Porter",
-          "salary": "$78,615",
+          "salary": "78 615 $",
           "country": "Portugal",
           "city": "Gloucester"
         }
@@ -70,32 +70,32 @@
     },
     "taskList": [
       {
-        "title": "Update the Documentation",
+        "title": "Mettre à jour la documentation",
         "description": "Dwuamish Head, Seattle, WA 8:47 AM",
         "done": false
       },
       {
-        "title": "GDPR Compliance",
-        "description": "The GDPR is a regulation that requires businesses to protect the personal data and privacy of Europe citizens for transactions that occur within EU member states.",
+        "title": "Conformité GDPR",
+        "description": "Le RGPD est un règlement qui impose aux entreprises de protéger les données personnelles et la vie privée des citoyens européens pour les transactions effectuées dans les États membres de l'UE.",
         "done": true
       },
       {
-        "title": "Solve the issues",
-        "description": "Fifty percent of all respondents said they would be more likely to shop at a company",
+        "title": "Résoudre les problèmes",
+        "description": "Cinquante pour cent des répondants ont déclaré qu'ils seraient plus susceptibles de faire leurs achats dans une entreprise",
         "done": false
       },
       {
-        "title": "Release v2.0.0",
+        "title": "Publier v2.0.0",
         "description": "Ra Ave SW, Seattle, WA 98116, SUA 11:19 AM",
         "done": false
       },
       {
-        "title": "Export the processed files",
-        "description": "The report also shows that consumers will not easily forgive a company once a breach exposing their personal data occurs.",
+        "title": "Exporter les fichiers traités",
+        "description": "Le rapport montre également que les consommateurs ne pardonneront pas facilement à une entreprise une violation exposant leurs données personnelles.",
         "done": false
       },
       {
-        "title": "Arival at export process",
+        "title": "Arrivée au processus d'exportation",
         "description": "Capitol Hill, Seattle, WA 12:34 AM",
         "done": false
       }
@@ -104,13 +104,13 @@
   "sidebar": {
     "title": "Creative Tim",
     "shortTitle": "CT",
-    "dashboard": "dashboard",
-    "icons": "Icons",
-    "maps": "Maps",
+    "dashboard": "Tableau de bord",
+    "icons": "Icônes",
+    "maps": "Cartes",
     "notifications": "Notifications",
-    "userProfile": "User Profile",
-    "tableList": "Table List",
-    "typography": "Typography",
-    "rtlSupport": "RTL Support"
+    "userProfile": "Profil de l'utilisateur",
+    "tableList": "Liste des tableaux",
+    "typography": "Typographie",
+    "rtlSupport": "Support RTL"
   }
 }

@@ -2,45 +2,19 @@
   <div class="wrapper">
     <side-bar>
       <template slot="links">
-        <!-- TODO faire un menu perso -->
-        <sidebar-link
-          to="/dashboard"
-          :name="$t('resume')"
-          icon="tim-icons icon-chart-pie-36"
-        />
-        <sidebar-link
-          to="/icons"
-          :name="$t('profil')"
-          icon="tim-icons icon-atom"
-        />
-        <sidebar-link
-          to="/maps"
-          :name="$t('projets universitaires')"
-          icon="tim-icons icon-pin"
-        />
-        <sidebar-link
-          to="/notifications"
-          :name="$t('projets personnels')"
-          icon="tim-icons icon-bell-55"
-        />
         <sidebar-link
           to="/profile"
-          :name="$t('sidebar.userProfile')"
+          :name="$t('profil')"
           icon="tim-icons icon-single-02"
         />
         <sidebar-link
-          to="/table-list"
-          :name="$t('sidebar.tableList')"
-          icon="tim-icons icon-puzzle-10"
-        />
-        <sidebar-link
-          to="/typography"
-          :name="$t('sidebar.typography')"
-          icon="tim-icons icon-align-center"
+          to="/dashboard"
+          :name="$t('projets')"
+          icon="tim-icons icon-chart-pie-36"
         />
         <sidebar-link
           to="/dashboard?enableRTL=true"
-          :name="$t('sidebar.rtlSupport')"
+          :name="$t('english')"
           icon="tim-icons icon-world"
         />
       </template>
