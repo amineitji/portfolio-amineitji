@@ -3,20 +3,22 @@
     <side-bar>
       <template slot="links">
         <sidebar-link
-          to="/profile"
-          :name="$t('profil')"
+          to="/profil"
+          :name="$t('Mon profil')"
           icon="tim-icons icon-single-02"
         />
         <sidebar-link
-          to="/dashboard"
-          :name="$t('projets')"
+          to="/projets"
+          :name="$t('Mes projets')"
           icon="tim-icons icon-chart-pie-36"
-        />
+        /> 
+
+        <!-- 
         <sidebar-link
-          to="/dashboard?enableRTL=true"
+          to="/projets?enableRTL=true"
           :name="$t('english')"
           icon="tim-icons icon-world"
-        />
+        /> -->
       </template>
     </side-bar>
     <div class="main-panel">
@@ -46,6 +48,9 @@ export default {
         this.$sidebar.displaySidebar(false);
       }
     },
+    navigateTo(path) {
+      this.$router.push(path);
+    }
   },
 };
 </script>

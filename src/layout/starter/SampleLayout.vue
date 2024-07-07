@@ -3,7 +3,7 @@
     <side-bar>
       <template slot="links">
         <sidebar-link
-          to="/dashboard"
+          to="/projets"
           :name="$t('sidebar.dashboard')"
           icon="tim-icons icon-chart-pie-36"
         />

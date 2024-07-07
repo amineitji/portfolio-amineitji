@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
           </button>
           <router-link :to="{ path: '/' }" class="navbar-brand"
-            >Site title</router-link
+            >Retour à l'accueil</router-link
           >
         </div>
 
