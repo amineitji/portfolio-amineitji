@@ -5,19 +5,19 @@
         <card type="chart">
           <template slot="header">
             <h3 class="card-title">Projet en équipe de 6 personnes - Développement d'une Application Web de Calcul d'Empreinte Carbone</h3>
-            <h5 class="card-category">
+            <h5>
               Dans le cadre de l'unité d'enseignement "Projet transversal" (M1if10) du Master 1 Informatique de l'Université Claude Bernard Lyon 1, nous avons collaboré à la création d'une application web de calcul d'empreinte carbone. Mon rôle de développeur backend a inclus l'établissement d'un système d'authentification sécurisé, le développement d'une API fonctionnelle, ainsi que l'implémentation de tests et de documentation. Ce projet a été une opportunité unique pour appliquer nos connaissances académiques dans un contexte professionnel simulé, en mettant l'accent sur la qualité et la sécurité du développement logiciel.
             </h5>
 
           </template>
           <div >
-            <img src="/img/co2.png" width="100%" height="100%" alt="CV" class="cv-image" @load="adjustCardWidth" ref="cvImage" />
+            <img src="/img/co2.png" width="100%" height="100%" alt="CV" class="cv-image"  ref="cvImage" />
           </div>
         </card>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4" :class="{ 'text-right': isRTL }">
+      <div class="col-lg-4" >
         <card type="chart">
           <template slot="header">
             <h3 class="card-title">Contribution à la librairie python de recherche CDlib</h3>
@@ -31,11 +31,11 @@
 
           </template>
           <div >
-            <img  width="100%" height="100%" src="/img/cdlib.png" alt="CV" class="cv-image" @load="adjustCardWidth" ref="cvImage" />
+            <img  width="100%" height="100%" src="/img/cdlib.png" alt="CV" class="cv-image"  ref="cvImage" />
           </div>
         </card>
       </div>
-      <div class="col-lg-4" :class="{ 'text-right': isRTL }">
+      <div class="col-lg-4" >
         <card type="chart">
           <template slot="header">
             <h3 class="card-title">Amélioration d'un Chatbot inspiré de ChatGPT : MVC, GRASP, et Tests Automatisés</h3>
@@ -45,11 +45,11 @@
 
           </template>
           <div >
-            <img  width="100%" height="100%" src="/img/eliza.png" alt="CV" class="cv-image" @load="adjustCardWidth" ref="cvImage" />
+            <img  width="100%" height="100%" src="/img/eliza.png" alt="CV" class="cv-image"  ref="cvImage" />
           </div>
         </card>
       </div>
-      <div class="col-lg-4" :class="{ 'text-right': isRTL }">
+      <div class="col-lg-4" >
         <card type="chart">
           <template slot="header">
             <h3 class="card-title">Machine Learning - Prédiction du Succès des Films au Box-Office Local, Étranger et Mondial</h3>
@@ -64,7 +64,7 @@
 
           </template>
           <div > 
-            <img width="100%" height="100%" src="/img/ml_movies.png"  alt="CV" class="cv-image" @load="adjustCardWidth" ref="cvImage" />
+            <img width="100%" height="100%" src="/img/ml_movies.png"  alt="CV" class="cv-image"  ref="cvImage" />
           </div>
         </card>
       </div>
@@ -80,7 +80,7 @@
 
           </template>
           <div >
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kZcpo4sGe6g" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen @load="adjustCardWidth" ref="cvVideo"></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kZcpo4sGe6g" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ref="cvVideo"></iframe>
           </div>
         </card>
        
@@ -94,7 +94,7 @@
            </h5>
         </template>
           <div > 
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PiKLRnlXitk" title="YouTube video player 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen @load="adjustCardWidth" ref="cvVideo"></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PiKLRnlXitk" title="YouTube video player 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ref="cvVideo"></iframe>
           </div>
         </card>
       </div>
